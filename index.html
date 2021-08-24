@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font awesome CDN -->
+    <script src="https://kit.fontawesome.com/e8f7331d69.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <title>AI Search and Rescue</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-sm" style="background-color: rgb(0, 0, 0)">
+        <div class="container-md">
+          <a href="/" class="navbar-brand"><img src="images/logo.png" width="240" /></a>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#current-work">Current Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDarkDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Documentation
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://docs.google.com/document/d/1uMT1w-GV5w3kgcQP1JURuj5qeCzQs8fVuzfDklaUmu8/edit#heading=h.ji970k2w3phh"
+                      target="_blank"
+                      >Proposal</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://docs.google.com/document/d/1rTSaFUtYfxzZL4b51j0zouSTmSHKGQuTwf6lgcW3PzQ"
+                      target="_blank"
+                      >Overview</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://docs.google.com/document/d/16FzDvfA62w-w9z5IjQItpMBW4w1k1H3iwjK5m-iOQdY"
+                      target="_blank"
+                      >Report</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://docs.google.com/presentation/d/1xBfZtumPmKJmq6-fV6Y8Geyf41bLYzXQ1oXKqY79fgQ"
+                      target="_blank"
+                      >Presentation</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Overview -->
+    <section id="overview" class="gradient pb-5">
+      <div class="container pt-3">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-5">
+            <h2 class="pb-2">Project Overview</h2>
+            <p>
+              The primary goal of this project is to explore the use of Artificial Intelligence and
+              related computational methods in support of Search and Rescue missions.
+            </p>
+          </div>
+          <div class="col-md-5"><img src="images/email_campaign_monochromatic.svg" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Current Work -->
+    <section id="current-work">
+      <div class="container pt-3">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-5">
+            <h2>Background</h2>
+            <p>
+              A lot of foundational work was required to allow for Machine Learning and Artificial
+              Intelligence methods in the future. Much of the summer was spent on creating a fully
+              digital version of the SAR (Search and Rescue) forms filled out by rescuers. With the
+              current approach of using physical forms, there is a lack of functionality and proper
+              organization and consolidation of data.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <h2>Our Approach</h2>
+            <p>
+              Initial migration of the SAR Forms to electronic versions was done through web-based
+              form creators like Google Forms and JotForm. However, it is hard to transform some
+              complicated forms using this apporach. We found a solution by creating a website for
+              the front end along with a database to record responses and process the data. This was
+              achieved by using Bootstrap, Nodejs and Firebase.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container pt-3">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-5"><img src="images/seo_monochromatic.svg" /></div>
+          <div class="col-md-5">
+            <h2>Please Visit our work here</h2>
+            <a href="https://ai-search-and-rescue.herokuapp.com/" target="_blank">
+              <button type="button" class="btn btn-warning">Website Demo</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="gradient">
+      <div class="container">
+        <div class="intro pt-5">
+          <h2 class="text-center">Meet Our Team</h2>
+        </div>
+        <div class="row people d-flex justify-content-center">
+          <div class="col-md-6 col-lg-3 item">
+            <div class="box" style="background-image: url(images/gary.png)">
+              <div class="cover">
+                <h3 class="name">Gary Bloom</h3>
+                <p class="title">Sponser</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 item">
+            <div class="box" style="background-image: url(images/franz.jpg)">
+              <div class="cover">
+                <h3 class="name">Franz Kurfess</h3>
+                <p class="title">Faculty Mentor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 item">
+            <div class="box" style="background-image: url(images/maria.jpg)">
+              <div class="cover">
+                <h3 class="name">Maria Pantoja</h3>
+                <p class="title">Faculty Mentor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 item">
+            <div class="box" style="background-image: url(images/lynne.jpg)">
+              <div class="cover">
+                <h3 class="name">Lynne Silvovsky</h3>
+                <p class="title">Faculty Mentor</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 item">
+            <div class="box" style="background-image: url(images/kai.jpg)">
+              <div class="cover">
+                <h3 class="name">Kai-Chin Huang</h3>
+                <p class="title">Student Researcher</p>
+                <div class="social">
+                  <a href="https://github.com/qaz6209031" target="_blank"
+                    ><i class="fa fa-github"></i></a
+                  ><a href="https://www.linkedin.com/in/kai-chin-huang-6938b2170/" target="_blank"
+                    ><i class="fa fa-linkedin"></i></a
+                  ><a href="https://kai-chin.medium.com/" target="_blank"
+                    ><i class="fa fa-medium"></i
+                  ></a>
+                  <a href="https://kai-chin-huang.com/" target="_blank"
+                    ><i class="fa fa-briefcase"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 item">
+            <div class="box" style="background-image: url(https://i.imgur.com/WgXRMDs.jpg)">
+              <div class="cover">
+                <h3 class="name">Ritvik Seshadri</h3>
+                <p class="title">Student Researcher</p>
+                <div class="social">
+                  <a href="#"><i class="fa fa-facebook-official"></i></a
+                  ><a href="#"><i class="fa fa-twitter"></i></a
+                  ><a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 item">
+            <div class="box" style="background-image: url(https://i.imgur.com/0Cdlenp.jpg)">
+              <div class="cover">
+                <h3 class="name">Meha Sharma</h3>
+                <p class="title">Student Researcher</p>
+                <div class="social">
+                  <a href="#"><i class="fa fa-facebook-official"></i></a
+                  ><a href="#"><i class="fa fa-twitter"></i></a
+                  ><a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 item">
+            <div class="box" style="background-image: url(https://i.imgur.com/0Cdlenp.jpg)">
+              <div class="cover">
+                <h3 class="name">Siddarth Viswanathan</h3>
+                <p class="title">Student Researcher</p>
+                <div class="social">
+                  <a href="#"><i class="fa fa-facebook-official"></i></a
+                  ><a href="#"><i class="fa fa-twitter"></i></a
+                  ><a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <!-- Bootstrap Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+
+      <p class="text-center footer-text gradient pb-3">
+        &copy; Cal Poly SLO | SURP Summer Undergraduate Research Program | 2021
+      </p>
+    </footer>
+  </body>
+</html>
